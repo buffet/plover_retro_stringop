@@ -1,6 +1,6 @@
 # plover_retro_stringop
 
-Call arbirary code on the last n words!
+Run arbitrary code on the last n words!
 This is inheritly unsafe and horrible, yay!
 
 Complaints go to **[[redacted]]@[[redacted]].com**.

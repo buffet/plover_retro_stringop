@@ -8,7 +8,7 @@ def internal(transform, ctx, arg):
     expr = args[1]
 
     raw_words = ctx.last_words(count=num_words)
-    words = [w.strip() for w in words]
+    words = [w.strip() for w in raw_words]
     text = "".join(raw_words)
 
     action = ctx.copy_last_action()
